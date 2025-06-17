@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Inspect Devices V3",
+    "version": "1.0",
+    "description": "快速打开Chrome设备检查页面（chrome://inspect/#devices），方便调试连接的设备。",
+    "action": {
+        "default_title": "Open Inspect Devices"
+    },
+    "permissions": ["tabs"],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "icons": {
+        "16": "icons/icon-16.png",
+        "48": "icons/icon-48.png",
+        "128": "icons/icon-128.png",
+        "512": "icons/icon-512.png"
+    }
+}
