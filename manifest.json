@@ -6,7 +6,7 @@
     "action": {
         "default_title": "Open Inspect Devices"
     },
-    "permissions": ["tabs"],
+    "permissions": [],
     "background": {
         "service_worker": "background.js"
     },
